@@ -106,7 +106,7 @@ git_repo: https://github.com/openkaios/chelaile
 
 应用程序的实际版本，一般为 `manifest.webapp` 的 `version` 值。
 
-** 注意：版本必须包含有双引号（`""`）否则将无法通过 GitHub Actions 构建**
+**注意：版本必须包含有双引号（`""`）否则将无法通过 GitHub Actions 构建**
 
 ```yaml
 download:
