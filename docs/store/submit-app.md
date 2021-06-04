@@ -133,6 +133,16 @@ download:
 type: privileged
 ```
 
+### locales
+
+应用程序所支持的语言。
+
+```yaml
+locales: 
+  - 中文(简体)
+  - English
+```
+
 ### license
 
 应用程序的协议，若为开源软件，请填写开源协议，若为闭源软件或不想提供源码请填写 `Closed Source`。
