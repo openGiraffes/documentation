@@ -175,6 +175,24 @@ maintainer:
   - openKaiOS
 ```
 
+### dependencies
+
+应用程序所需要的依赖，若无可以忽略，但由于设计问题，尽管您的应用不需要依赖，也需要保留该选项，但值为空即可。
+
+#### name
+
+依赖名称
+
+#### url (可选)
+
+依赖所需的 URL 地址。
+
+```yaml
+dependencies: 
+  - name: Intent
+    url: https://store.openkaios.top/#intent
+```
+
 ### donation (可选)
 
 应用程序的捐赠地址（如果有的话）
@@ -225,6 +243,7 @@ has_tracking: false
 |     news      |  新闻  |
 |    search     |  搜索  |
 |    social     |  社交  |
+|    themes     |  主题  |
 |    travel     |  旅游  |
 |    utility    |  工具  |
 
