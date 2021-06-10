@@ -4,117 +4,121 @@
 
 数据来源：https://gist.github.com/rgruesbeck/04a5380a60eb325abfe9ee25e4d46f9b
 
-| Name | type:web | type:privileged | type:certified |
-| :-: | :-: | :-: | :-: |
-| geolocation | ! | ! | ! |
-|geolocation-noprompt | ✕ | ✕ | ✓ |
-|mmi-test | ✕ | ✕ | ✓ |
-|camera | ✕ | ! | ✓ |
-|alarms | ✓ | ✓ | ✓ |
-|tcp-socket | ✕ | ✓ | ✓ |
-|udp-socket | ✕ | ✓ | ✓ |
-|network-events | ✕ | ✕ | ✓ |
-|contacts | ✕ | ✓ | ✓ |
-|device-storage:apps | ✕ | ✕ | ✓ |
-|device-storage:apps-storage | ✕ | ✕ | ✓ |
-|device-storage:crashes | ✕ | ✕ | ✓ |
-|device-storage:pictures | ✕ | ! | ✓ |
-|device-storage:videos | ✕ | ! | ✓ |
-|device-storage:music | ✕ | ! | ✓ |
-|device-storage:sdcard | ✕ | ! | ✓ |
-|sms | ✕ | ✕ | ✓ |
-|speech-recognition | ✕ | ✓ | ✓ |
-|telephony | ✕ | ✕ | ✓ |
-|browser | ✕ | ✓ | ✓ |
-|browser:universalxss | ✕ | ✓ | ✓ |
-|browser:embedded-system-app | ✕ | ✕ | ✓ |
-|bluetooth | ✕ | ✓ | ✓ |
-|mobileconnection | ✕ | ✕ | ✓ |
-|mobilenetwork | ✕ | ✓ | ✓ |
-|power | ✕ | ✕ | ✓ |
-|push | ✓ | ✓ | ✓ |
-|serviceworker | ✓ | ✓ | ✓ |
-|settings | ✕ | ✕ | ✓ |
-|settings-clear | ✕ | ✕ | ✕ |
-|softkey | ✕ | ✕ | ✓ |
-|permissions | ✕ | ✕ | ✓ |
-|phonenumberservice | ✕ | ✕ | ✓ |
-|fmradio | ✕ | ✓ | ✓ |
-|attention | ✕ | ✕ | ✓ |
-|global-clickthrough-overlay | ✕ | ✓ | ✓ |
-|moz-attention | ✕ | ✓ | ✓ |
-|webapps-manage | ✕ | ✕ | ✓ |
-|homescreen-webapps-manage | ✕ | ✓ | ✓ |
-|backgroundservice | ✕ | ✕ | ✓ |
-|desktop-notification | ! | ! | ! |
-|networkstats-manage | ✕ | ✕ | ✓ |
-|resourcestats-manage | ✕ | ✕ | ✓ |
-|wifi-manage | ✕ | ✕ | ✓ |
-|systemXHR | ✕ | ✓ | ✓ |
-|voicemail | ✕ | ✕ | ✓ |
-|idle | ✕ | ✕ | ✓ |
-|time | ✕ | ✕ | ✓ |
-|embed-apps | ✕ | ✕ | ✓ |
-|embed-widgets | ✕ | ✓ | ✓ |
-|storage | ✓ | ✓ | ✓ |
-|background-sensors | ✕ | ✕ | ✓ |
-|cellbroadcast | ✕ | ✕ | ✓ |
-|audio-channel-normal | ✓ | ✓ | ✓ |
-|audio-channel-content | ✓ | ✓ | ✓ |
-|audio-channel-notification | ✕ | ✓ | ✓ |
-|audio-channel-alarm | ✕ | ✓ | ✓ |
-|audio-channel-system | ✕ | ✓ | ✓ |
-|audio-channel-telephony | ✕ | ✕ | ✓ |
-|moz-audio-channel-telephony | ✕ | ✓ | ✓ |
-|audio-channel-ringer | ✕ | ✕ | ✓ |
-|moz-audio-channel-ringer | ✕ | ✓ | ✓ |
-|audio-channel-publicnotification | ✕ | ✕ | ✓ |
-|volumemanager | ✕ | ✓ | ✓ |
-|open-remote-window | ✕ | ✕ | ✓ |
-|input | ✕ | ✓ | ✓ |
-|input-manage | ✕ | ✕ | ✓ |
-|wappush | ✕ | ✕ | ✓ |
-|audio-capture | ! | ! | ✓ |
-|audio-capture:3gpp | ✕ | ✓ | ✓ |
-|audio-capture:3gpp2 | ✕ | ✓ | ✓ |
-|nfc | ✕ | ✓ | ✓ |
-|nfc-share | ✕ | ✕ | ✓ |
-|nfc-manager | ✕ | ✕ | ✓ |
-|nfc-hci-events | ✕ | ✓ | ✓ |
-|speaker-control | ✕ | ✓ | ✓ |
-|downloads | ✕ | ✕ | ✓ |
-|video-capture | ! | ! | ✓ |
-|feature-detection | ✕ | ✓ | ✓ |
-|mobileid | ✕ | ! | ! |
-|test-permission | ! | ! | ✓ |
-|kaios-accounts | ✕ | ✕ | ✓ |
-|kaios-accounts:service | ✕ | ! | ✓ |
-|themeable | ✕ | ✕ | ✓ |
-|settings:wallpaper.image | ✕ | ✓ | ✓ |
-|engineering-mode | ✕ | ✕ | ✓ |
-|tv | ✕ | ✕ | ✓ |
-|before-after-keyboard-event | ✕ | ✕ | ✓ |
-|presentation-device-manage | ✕ | ✕ | ✓ |
-|requestsync-manager | ✕ | ✕ | ✓ |
-|secureelement-manage | ✕ | ✓ | ✓ |
-|inputport | ✕ | ✕ | ✓ |
-|system-update | ✕ | ✕ | ✓ |
-|presentation | ✕ | ✓ | ✓ |
-|open-hidden-window | ✕ | ✕ | ✓ |
-|moz-extremely-unstable-and-will-change-webcomponents | ✕ | ✓ | ✓ |
-|system-app-only-audio-channels-in-app | ✕ | ✕ | ✓ |
-|killswitch | ✕ | ✕ | ✓ |
-|flip | ✕ | ✕ | ✓ |
-|flashlight | ✕ | ✕ | ✓ |
-|datacall | ✕ | ✕ | ✓ |
-|keyboard-event-generator | ✕ | ✕ | ✓ |
-|customization | ✕ | ✕ | ✓ |
-|deviceconfig | ✕ | ✕ | ✓ |
-|external-api | ✕ | ✓ | ✓ |
-|engmode-extension | ✕ | ✕ | ✓ |
-|cloud-authorization | ✕ | ✕ | ✓ |
-|spatialnavigation-app-manage | ✕ | ✓ | ✓ |
-|sandboxed-cookies | ✓ | ✓ | ✓ |
-|fota | ✕ | ✕ | ✓ |
-|libsignal | ✕ | ✕ | ✓ |
-|wamedia | ✕ | ✕ | ✓ |
+✓：支持  
+✕：不支持
+!：未知
+
+|                         Name                         | type:web | type:privileged | type:certified |
+| :--------------------------------------------------: | :------: | :-------------: | :------------: |
+|                        alarms                        |    ✓     |        ✓        |       ✓        |
+|                      attention                       |    ✕     |        ✕        |       ✓        |
+|                    audio-capture                     |    !     |        !        |       ✓        |
+|                  audio-capture:3gpp                  |    ✕     |        ✓        |       ✓        |
+|                 audio-capture:3gpp2                  |    ✕     |        ✓        |       ✓        |
+|                 audio-channel-alarm                  |    ✕     |        ✓        |       ✓        |
+|                audio-channel-content                 |    ✓     |        ✓        |       ✓        |
+|                 audio-channel-normal                 |    ✓     |        ✓        |       ✓        |
+|              audio-channel-notification              |    ✕     |        ✓        |       ✓        |
+|           audio-channel-publicnotification           |    ✕     |        ✕        |       ✓        |
+|                 audio-channel-ringer                 |    ✕     |        ✕        |       ✓        |
+|                 audio-channel-system                 |    ✕     |        ✓        |       ✓        |
+|               audio-channel-telephony                |    ✕     |        ✕        |       ✓        |
+|                  background-sensors                  |    ✕     |        ✕        |       ✓        |
+|                  backgroundservice                   |    ✕     |        ✕        |       ✓        |
+|             before-after-keyboard-event              |    ✕     |        ✕        |       ✓        |
+|                      bluetooth                       |    ✕     |        ✓        |       ✓        |
+|                       browser                        |    ✕     |        ✓        |       ✓        |
+|             browser:embedded-system-app              |    ✕     |        ✕        |       ✓        |
+|                 browser:universalxss                 |    ✕     |        ✓        |       ✓        |
+|                        camera                        |    ✕     |        !        |       ✓        |
+|                    cellbroadcast                     |    ✕     |        ✕        |       ✓        |
+|                 cloud-authorization                  |    ✕     |        ✕        |       ✓        |
+|                       contacts                       |    ✕     |        ✓        |       ✓        |
+|                    customization                     |    ✕     |        ✕        |       ✓        |
+|                       datacall                       |    ✕     |        ✕        |       ✓        |
+|                 desktop-notification                 |    !     |        !        |       !        |
+|                     deviceconfig                     |    ✕     |        ✕        |       ✓        |
+|                 device-storage:apps                  |    ✕     |        ✕        |       ✓        |
+|             device-storage:apps-storage              |    ✕     |        ✕        |       ✓        |
+|                device-storage:crashes                |    ✕     |        ✕        |       ✓        |
+|                 device-storage:music                 |    ✕     |        !        |       ✓        |
+|               device-storage:pictures                |    ✕     |        !        |       ✓        |
+|                device-storage:sdcard                 |    ✕     |        !        |       ✓        |
+|                device-storage:videos                 |    ✕     |        !        |       ✓        |
+|                      downloads                       |    ✕     |        ✕        |       ✓        |
+|                      embed-apps                      |    ✕     |        ✕        |       ✓        |
+|                    embed-widgets                     |    ✕     |        ✓        |       ✓        |
+|                   engineering-mode                   |    ✕     |        ✕        |       ✓        |
+|                  engmode-extension                   |    ✕     |        ✕        |       ✓        |
+|                     external-api                     |    ✕     |        ✓        |       ✓        |
+|                  feature-detection                   |    ✕     |        ✓        |       ✓        |
+|                      flashlight                      |    ✕     |        ✕        |       ✓        |
+|                         flip                         |    ✕     |        ✕        |       ✓        |
+|                       fmradio                        |    ✕     |        ✓        |       ✓        |
+|                         fota                         |    ✕     |        ✕        |       ✓        |
+|                     geolocation                      |    !     |        !        |       !        |
+|                 geolocation-noprompt                 |    ✕     |        ✕        |       ✓        |
+|             global-clickthrough-overlay              |    ✕     |        ✓        |       ✓        |
+|              homescreen-webapps-manage               |    ✕     |        ✓        |       ✓        |
+|                         idle                         |    ✕     |        ✕        |       ✓        |
+|                        input                         |    ✕     |        ✓        |       ✓        |
+|                     input-manage                     |    ✕     |        ✕        |       ✓        |
+|                      inputport                       |    ✕     |        ✕        |       ✓        |
+|                    kaios-accounts                    |    ✕     |        ✕        |       ✓        |
+|                kaios-accounts:service                |    ✕     |        !        |       ✓        |
+|               keyboard-event-generator               |    ✕     |        ✕        |       ✓        |
+|                      killswitch                      |    ✕     |        ✕        |       ✓        |
+|                      libsignal                       |    ✕     |        ✕        |       ✓        |
+|                       mmi-test                       |    ✕     |        ✕        |       ✓        |
+|                   mobileconnection                   |    ✕     |        ✕        |       ✓        |
+|                       mobileid                       |    ✕     |        !        |       !        |
+|                    mobilenetwork                     |    ✕     |        ✓        |       ✓        |
+|                    moz-attention                     |    ✕     |        ✓        |       ✓        |
+|               moz-audio-channel-ringer               |    ✕     |        ✓        |       ✓        |
+|             moz-audio-channel-telephony              |    ✕     |        ✓        |       ✓        |
+| moz-extremely-unstable-and-will-change-webcomponents |    ✕     |        ✓        |       ✓        |
+|                    network-events                    |    ✕     |        ✕        |       ✓        |
+|                 networkstats-manage                  |    ✕     |        ✕        |       ✓        |
+|                         nfc                          |    ✕     |        ✓        |       ✓        |
+|                    nfc-hci-events                    |    ✕     |        ✓        |       ✓        |
+|                     nfc-manager                      |    ✕     |        ✕        |       ✓        |
+|                      nfc-share                       |    ✕     |        ✕        |       ✓        |
+|                  open-hidden-window                  |    ✕     |        ✕        |       ✓        |
+|                  open-remote-window                  |    ✕     |        ✕        |       ✓        |
+|                     permissions                      |    ✕     |        ✕        |       ✓        |
+|                  phonenumberservice                  |    ✕     |        ✕        |       ✓        |
+|                        power                         |    ✕     |        ✕        |       ✓        |
+|                     presentation                     |    ✕     |        ✓        |       ✓        |
+|              presentation-device-manage              |    ✕     |        ✕        |       ✓        |
+|                         push                         |    ✓     |        ✓        |       ✓        |
+|                 requestsync-manager                  |    ✕     |        ✕        |       ✓        |
+|                 resourcestats-manage                 |    ✕     |        ✕        |       ✓        |
+|                  sandboxed-cookies                   |    ✓     |        ✓        |       ✓        |
+|                 secureelement-manage                 |    ✕     |        ✓        |       ✓        |
+|                    serviceworker                     |    ✓     |        ✓        |       ✓        |
+|                       settings                       |    ✕     |        ✕        |       ✓        |
+|               settings:wallpaper.image               |    ✕     |        ✓        |       ✓        |
+|                    settings-clear                    |    ✕     |        ✕        |       ✕        |
+|                         sms                          |    ✕     |        ✕        |       ✓        |
+|                       softkey                        |    ✕     |        ✕        |       ✓        |
+|             spatialnavigation-app-manage             |    ✕     |        ✓        |       ✓        |
+|                   speaker-control                    |    ✕     |        ✓        |       ✓        |
+|                  speech-recognition                  |    ✕     |        ✓        |       ✓        |
+|                       storage                        |    ✓     |        ✓        |       ✓        |
+|        system-app-only-audio-channels-in-app         |    ✕     |        ✕        |       ✓        |
+|                    system-update                     |    ✕     |        ✕        |       ✓        |
+|                      systemXHR                       |    ✕     |        ✓        |       ✓        |
+|                      tcp-socket                      |    ✕     |        ✓        |       ✓        |
+|                      telephony                       |    ✕     |        ✕        |       ✓        |
+|                   test-permission                    |    !     |        !        |       ✓        |
+|                      themeable                       |    ✕     |        ✕        |       ✓        |
+|                         time                         |    ✕     |        ✕        |       ✓        |
+|                          tv                          |    ✕     |        ✕        |       ✓        |
+|                      udp-socket                      |    ✕     |        ✓        |       ✓        |
+|                    video-capture                     |    !     |        !        |       ✓        |
+|                      voicemail                       |    ✕     |        ✕        |       ✓        |
+|                    volumemanager                     |    ✕     |        ✓        |       ✓        |
+|                       wamedia                        |    ✕     |        ✕        |       ✓        |
+|                       wappush                        |    ✕     |        ✕        |       ✓        |
+|                    webapps-manage                    |    ✕     |        ✕        |       ✓        |
+|                     wifi-manage                      |    ✕     |        ✕        |       ✓        |
