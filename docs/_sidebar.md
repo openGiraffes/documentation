@@ -4,3 +4,5 @@
     - [为商店添加分类](store/submit-category.md)
     - [隐私政策和使用条款](store/terms.md)
     - [滥用举报](store/abuse.md)
+- [开发](develop/main.md)
+    - [权限](develop/permission.md)
