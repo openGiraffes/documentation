@@ -5,7 +5,7 @@
 数据来源：https://gist.github.com/rgruesbeck/04a5380a60eb325abfe9ee25e4d46f9b
 
 ✓：支持  
-✕：不支持
+✕：不支持  
 !：未知
 
 |                         Name                         | type:web | type:privileged | type:certified |
