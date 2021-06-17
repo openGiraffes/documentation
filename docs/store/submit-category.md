@@ -32,6 +32,25 @@ description: Games
 icon: fa_plane
 ```
 
+### locales
+
+分类所对应的本地化字段，若无将使用默认名称。
+
+其中`locale_code` 请根据 ISO 639-1 和我们暂时支持的语言（本地化支持情况可在此查看：https://github.com/openkaios/openkaios-store-web/tree/master/src/assets/locales）填写， `text` 为对应字段。
+
+```yaml
+locales:
+ - [locale_code]: [text]
+```
+
+若需要支持更多语言：
+
+```yaml
+locales:
+ - [locale_code_1]: [text_1]
+   [locale_code_2]: [text_2]
+```
+
 ## 提交 yml
 
 Fork [本仓库](https://github.com/openkaios/openkaios-store-db)，将你所填写的 `[category].yml` 上传至 `categories` 文件夹。
