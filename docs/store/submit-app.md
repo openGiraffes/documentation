@@ -255,6 +255,36 @@ meta:
     - multimedia
 ```
 
+### fromstore
+
+应用程序是否来自 KaiStore 商店，该选项仅面向来自 KaiStore 的应用（并且大多数是由 ALLA 或 `adb pull` 命令提取而得）。
+
+大多数应用由于需要接入 KaiAds 才会被允许上架 KaiStore，所以多数来自 KaiStore 的应用的 `has_ads` 和 `has_tracking` 属性将默认为 `true`。
+
+同时由于该应用多数为我们自行转载，也有可能不是最新版本。
+
+当该值为 `true` 时，我们的 WebStore 也会添加相应的提示文字，但如果可以保证其没有 KaiAds，我们也会在 `[app id].yml` 中将 `has_ads` 和 `has_tracking` 设定为 `false`。
+
+```yaml
+fromstore: false
+```
+
+若需检查应用是否有 KaiAds，可以找到应用的 `application.zip`，检查压缩包内是否有 `kaiads.min.js` 文件，或在 `index.html` 等 HTML 入口带有以下代码：
+
+```html
+<script src="https://static.kaiads.com/ads-sdk/ads-sdk.v4.min.js"></script>
+```
+
+或在 `manifest.webapp` 中含有以下配置：
+
+```json
+{
+	"dependencies": {
+		"ads-sdk": "1.4.1"
+	}
+}
+```
+
 ## 提交 yml
 
 Fork [本仓库](https://github.com/openkaios/openkaios-store-db)，将你所填写的 `[app id].yml` 上传至 `apps` 文件夹。
