@@ -42,7 +42,7 @@ AppID 是应用程序的域反转，例如：`app.example.com` 将是 `com.examp
 
 要添加您的 app，您需要创建一个描述它的文件。该文件的名称应为 `[app id].yml` 并位于 `apps` 文件夹中，`app id` 可自行命名，但请不要使用中文。
 
-从 [example/app.template.yml](https://github.com/openkaios/openkaios-store-db/blob/main/example/app.template.yml) 获取应用模板。
+从 [example/app.template.yml](https://github.com/openGiraffes/openGiraffes-store-db/blob/main/example/app.template.yml) 获取应用模板。
 
 ### name
 应用程序的名称。
@@ -86,7 +86,7 @@ screenshots:
 应用程序的网站（如果有的话）
 
 ```yaml
-website: https://github.com/openkaios/chelaile
+website: https://github.com/openGiraffes/chelaile
 ```
 
 ### git_repo (可选)
@@ -94,7 +94,7 @@ website: https://github.com/openkaios/chelaile
 应用程序的 git 仓库地址（如果有的话）
 
 ```yaml
-git_repo: https://github.com/openkaios/chelaile
+git_repo: https://github.com/openGiraffes/chelaile
 ```
 
 ### download
@@ -172,7 +172,7 @@ author: LiarOnce <liaronce@hotmail.com>
 ```yaml
 maintainer: 
   - LiarOnce <liaronce@hotmail.com>
-  - openKaiOS
+  - openGiraffes
 ```
 
 ### dependencies
@@ -190,7 +190,7 @@ maintainer:
 ```yaml
 dependencies: 
   - name: Intent
-    url: https://store.openkaios.top/#intent
+    url: https://store.opengiraffes.top/#intent
 ```
 
 ### donation (可选)
@@ -287,6 +287,6 @@ fromstore: false
 
 ## 提交 yml
 
-Fork [本仓库](https://github.com/openkaios/openkaios-store-db)，将你所填写的 `[app id].yml` 上传至 `apps` 文件夹。
+Fork [本仓库](https://github.com/openGiraffes/openGiraffes-store-db)，将你所填写的 `[app id].yml` 上传至 `apps` 文件夹。
 
 最后在本项目发起 Pull Request，我们将对应用进行审核，通过后将会立即上架或在第二天 6:00 （北京时间）上架（GitHub Actions 定时构建）

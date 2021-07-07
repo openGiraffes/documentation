@@ -8,4 +8,4 @@
 - 不符合当地法律法规
 - ......
 
-请在 [issue](https://github.com/openkaios/openkaios-store-db/issues) 中报告该应用程序，我们将对其进行调查。
+请在 [issue](https://github.com/openGiraffes/openGiraffes-store-db/issues) 中报告该应用程序，我们将对其进行调查。

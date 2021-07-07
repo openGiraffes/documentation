@@ -1,2 +1,2 @@
 # documentation
-openKaiOS Documentations
+openGiraffes Documentations

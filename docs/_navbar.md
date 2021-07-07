@@ -1,6 +1,6 @@
 - [首页](/)
 
-- openKaiOS
-    - [Website](https://openkaios.top)
-    - [GitHub](https://github.com/openkaios)
-    - [商店](https://store.openkaios.top)
+- openGiraffes
+    - [Website](https://opengiraffes.top)
+    - [GitHub](https://github.com/openGiraffes)
+    - [商店](https://store.opengiraffes.top)

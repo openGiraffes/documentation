@@ -8,7 +8,7 @@
 
 我们**只链接**到应用程序包，当然如果部分应用有托管上的问题，我们也提供另外的托管地址，因此在下载应用程序时，您将可以看到您的 IP 地址的第三方服务器下载它们。
 
-由我们帮助托管的程序仓库地址：https://gitee.com/liaronce/openkaios-store-binary
+由我们帮助托管的程序仓库地址：https://gitee.com/liaronce/openGiraffes-store-binary
 
 ### 可能与第三方共享的数据
 
@@ -50,4 +50,4 @@
 
 ## 滥用
 
-如果您发现某个应用侵犯了您的权利或破坏了您的设备，请在 [GitHub  问题](https://github.com/openkaios/openkaios-store-db/issues) 上报告
+如果您发现某个应用侵犯了您的权利或破坏了您的设备，请在 [GitHub  问题](https://github.com/openGiraffes/openGiraffes-store-db/issues) 上报告
